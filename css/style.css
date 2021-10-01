@@ -28,3 +28,7 @@
 .navbar-links ul li {
     text-align: center;
 }
+.navbar-links.active {
+    display: block;
+}
+
