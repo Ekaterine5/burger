@@ -1,0 +1,8 @@
+@media (max-width:768px) {
+    .navbar-links {
+        display: none;
+    }
+    .toggle-button {
+        display: block;
+    }
+}

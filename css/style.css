@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 40px;
+}
+.navbar-links ul {
+    display: flex;
+}
+.navbar-links ul li {
+    margin: 20px;
+}
+.toggle-button {
+    color: orange;
+    position: absolute;
+    top: 55px;
+    right: 26px;
+    font-size: 25px;
+    display: none;
+}
+
+.navbar {
+    flex-direction: column;
+}
+.navbar-links ul {
+    flex-direction: column;
+}
+.navbar-links ul li {
+    text-align: center;
+}
